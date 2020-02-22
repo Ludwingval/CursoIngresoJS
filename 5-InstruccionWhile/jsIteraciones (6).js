@@ -8,7 +8,7 @@ function mostrar()
 
 while(contador < 5) {
 	numero=parseInt(prompt("Ingrese un numero"))
-	while( isNan(numero))
+	while( isNaN(numero))
 	{	numero=parseInt(prompt("Esto no es un numero. Ingrese un numero"))
 }
 
