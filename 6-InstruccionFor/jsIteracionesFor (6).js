@@ -12,5 +12,5 @@ for ( var i=1; i<= numero; i++){
   }
 }
 
-console.log("Cantidad de")
+console.log("Cantidad de pares: " + contadoresPares)
 }//FIN DE LA FUNCIÓN
