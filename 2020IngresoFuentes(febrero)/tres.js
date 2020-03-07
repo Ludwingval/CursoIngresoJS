@@ -19,7 +19,7 @@ function mostrar()
 	do{
 					do
 				{
-					sexo = prompt("Ingrese sexo; (barbijo, jabono alcohol)");
+					sexo = prompt("Ingrese sexo");
 				}while (!(sexo=="f" || sexo=="m"))
 					
 				do
@@ -43,14 +43,14 @@ function mostrar()
 					sexoMasviejo=sexo
 					NombreMasviejo=nombre
 				}
-			if( sexo=="f" && estadoCivil=="casado" || estadoCivil=="viudo")
+			if( sexo=="f")
 			{
+				sumamujeres= sumamujeres+ edad 
+			}
+			else if (estadoCivil=="casado" || estadoCivil=="viudo"){
 				cantidadMujeresCV++
 			}
-			else if (sexo=="f"){
-					sumamujeres= sumamujeres+ edad 
-			}
-			if(sexo=="m" && estadoCivil=="Soltero")
+			else if(sexo=="m" && estadoCivil=="Soltero")
 			{
 				contadorHombressolteros++
 				sumaHombresSolteros= sumaHombresSolteros+edad

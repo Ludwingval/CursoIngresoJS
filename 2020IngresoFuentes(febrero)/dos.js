@@ -20,4 +20,5 @@ function mostrar() {
     
     seguir = prompt("Desea seguir?")
   } while (seguir == "s")
+  
 }
